@@ -21,8 +21,8 @@ sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.co
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 
-svn co https://github.com/Lienol/openwrt-packages/trunk/utils/syncthing
+svn co https://github.com/Lienol/openwrt-packages/trunk/utils/syncthing package/utils/syncthing
 
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns package/net/smartdns
 
-svn co https://github.com/coolsnowwolf/packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
+svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy

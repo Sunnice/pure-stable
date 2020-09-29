@@ -25,4 +25,4 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/utils/syncthing package/
 
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns package/net/smartdns
 
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
+svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy package/packages/net/https-dns-proxy
